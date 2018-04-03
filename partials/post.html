@@ -1,0 +1,36 @@
+<div class="content row"
+     itemscope itemtype="http://schema.org/Photograph">
+  <div class="four columns">
+    <h5 itemprop="name">{{title}}</h5>
+    <p itemprop="description">{{description}}</p>
+    <p>Author:
+      <span itemprop="creator"
+            itemscope itemtype="http://schema.org/Person">
+        <a itemprop="sameAs" href="{{creatorUrl}}">
+          <span itemprop="name">{{creator}}</span>
+        </a>
+      </span>
+    </p>
+    <p>Created date:
+      <span itemprop="createdDate">{{formatTime createdDate}}</span>
+    </p>
+    <p>Copyright ©
+      <span itemprop="copyrightYear">{{yearFromDate createdDate}}</span>
+      <br />
+      <span itemprop="copyrightHolder"
+            itemscope itemtype="http://schema.org/Person">
+        <a itemprop="sameAs" href="{{creatorUrl}}">
+          <span itemprop="name">{{creator}}</span>
+        </a>
+      </span>.
+      <br />
+      All rights reserved.
+  </div>
+  <div class="eight columns">
+    <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+      <img src="/img/{{ id }}.jpg"
+           alt="Photograph - {{title}}"
+           itemprop="contentUrl"  />
+    </span>
+  </div>
+</div>

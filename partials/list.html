@@ -1,0 +1,26 @@
+{{#each_limit collections.posts 30}}
+  {{#if nolist}}
+  {{else}}
+    {{#even @index}}
+      <div class="divider row">
+      {{else}}
+      <div class="content row">
+    {{/even}}
+      <div class="seven columns">
+        <h5>{{title}}</h5>
+        <p>{{description}}</p>
+        <p>Author:
+          <a href="{{this.creatorUrl}}">{{this.creator}}</a>
+        </p>
+        <p>Created date: {{formatTime this.createdDate}}</p>
+      </div>
+      <div class="five columns">
+        <a href="/posts/{{this.id}}.html"
+           title="{{this.title}}">
+          <img src="/img/{{ this.id }}.jpg"
+               alt="Photograph of - {{this.description}}" />
+        </a>
+      </div>
+    </div>
+  {{/if}}
+{{/each_limit}}

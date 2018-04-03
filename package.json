@@ -1,0 +1,25 @@
+{
+  "name": "sierraforest.garden",
+  "version": "0.1.0",
+  "description": "Notes, information, and data on forest gardening specialized for the climate of the Sierra Nevada mountains in California.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Michael Graham <oakenclast@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "handlebars": "^4.0.11",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-css-packer": "^0.2.0",
+    "metalsmith-fingerprint-ignore": "^2.0.0",
+    "metalsmith-layouts": "1.8.1",
+    "metalsmith-markdown": "^0.2.2",
+    "metalsmith-metadata": "0.0.4",
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-sitemap": "^1.2.0",
+    "metalsmith-writemetadata": "^0.4.5"
+  }
+}
