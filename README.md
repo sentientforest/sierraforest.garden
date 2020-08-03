@@ -1,3 +1,9 @@
+# sierraforest.garden
+
+A basic log of progress on starting a forest garden in the Sierra Nevada
+Mountains of California. Early work in progress. 
+
+
 ### Style guide
 
 192211 - primary dark green
