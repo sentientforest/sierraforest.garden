@@ -8,7 +8,6 @@ const assets = require('metalsmith-assets')
 const fingerprint = require('metalsmith-fingerprint-ignore')
 const writemetadata = require('metalsmith-writemetadata')
 const sitemap = require('metalsmith-sitemap')
-const serve = require('metalsmith-serve');
 const cssPacker = require('metalsmith-css-packer');
 const hbsHelpers = require('./lib/handlebars-helpers')
 
@@ -66,7 +65,6 @@ Metalsmith(__dirname)
     .use(sitemap({
       hostname: 'https://sierraforest.garden'
     }))
-    .use(serve())
     .build(function (err) {
       if (err) {
         throw err
