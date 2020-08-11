@@ -10,14 +10,15 @@
 }
 
 body {
-  color: #260000;
-  background-color: #e3b581;
-  background: linear-gradient(to left, #192211, #4d5b42 5%, #abbd95 30%,
-    #bab86b 40%, #fff 50%, #bab86b 60%, #abbd95 70%, #4d5b42 95%, #192211 100%);
+  color: #fefefe;
+  background-color: #261913;
   padding: 3vw 3vh;
 
 }
 
+.sfg.container {
+  max-width:
+}
 .row {
   padding: 2em;
 }
@@ -29,16 +30,11 @@ img {
 
 .header,
 .divider,
+.content,
 .footer {
   background-color: #192211;
   color: #fdfdfd;
   margin: 0 0 2em;
-}
-
-.content {
-  margin: 0 0 2em;
-  background-color: #594c46;
-  color: #fefefe;
 }
 
 a {
