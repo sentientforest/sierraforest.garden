@@ -39,13 +39,13 @@ img {
 }
 
 a {
-  color: #ababab;
+  color: #bbddff;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #898989;
+  color: #bbddff;
   text-decoration: underline;
 }
 
@@ -62,8 +62,8 @@ nav ul li {
 .tree {
   padding: 1.5em;
   background: radial-gradient(ellipse at center, #fff 0%, #fff 60%,
-    #5f928d 90%, #1f524d 100% );
-  border: 0.15em solid #fdfdfd;
+    #594c47 83%, #261913 93% );
+  border: 0.075em solid #fdfdfd;
 }
 
 .tree svg {
